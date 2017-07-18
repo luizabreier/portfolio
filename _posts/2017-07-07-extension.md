@@ -3,13 +3,16 @@ layout: post
 title: Extension Store
 img: /img/extension_cover.png
 description: Extension Store is a new admin of the VTEX platform that enables the shopkeepers to find and activate new features for their shops, adding functionalities with extension points.
+project: See project
 date: July 2017
 role:
 - Research
 - UX & UI
 - HTML and CSS implementation
 ---
-![capa](/img/wekker.png)
+![capa](/img/extension.png)
+
+# Extension Store
 
 Extension Store is a new admin of the VTEX platform that enables the shopkeepers to find and activate new features for their shops, adding functionalities with extension points. These extension points are a space on the platform pages that let the users add components. With that, the partner ecosystem will have a lot of opportunities to create extensions that meet the business needs of each shopkeeper and improve the shopping experience for the users.
 

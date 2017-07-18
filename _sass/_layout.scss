@@ -3,11 +3,73 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  max-width: 38rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
+  padding-left:  4.5rem;
+  padding-right: 4.5rem;
   margin-left:  auto;
   margin-right: auto;
+}
+
+.cover img {
+   max-width: 100%;
+ }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+  float: right;
+  width: 60%;
+}
+
+.link {
+  color: #818181;
+}
+
+.wrapper:nth-child(odd) .banner {
+  float: left;
+}
+
+.wrapper:nth-child(odd) .box {
+  left: -20px
+}
+
+.wrapper:nth-child(odd) .card {
+  float: right;
+}
+
+.wrapper:nth-child(even) .banner {
+  float: right;
+}
+
+.wrapper:nth-child(even) .card {
+  float: left;
+}
+
+.wrapper:nth-child(even) .box {
+  text-align: right;
+  right: -20px
+}
+
+.banner {
+  float: left;
+  width: 40%;
+}
+
+.box {
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+  padding: 1.5rem;
+  display: inline-block;
+  margin-left: -1rem;
+  position: absolute;
+  top: 5.5rem;
+  left: -2rem;
+  width: 100%;
 }
 
 footer {

@@ -7,6 +7,11 @@
 
 body {
   font-family: 'Hind', sans-serif;
+  color: #535151;
+}
+
+.post-title {
+  color: #535151;
 }
 
 p {
@@ -35,7 +40,7 @@ img {
 }
 
 .link {
-  color: #818181;
+  color: #afadad;
 }
 
 .wrapper:nth-child(odd) .banner {
@@ -75,9 +80,13 @@ img {
   display: inline-block;
   margin-left: -1rem;
   position: absolute;
-  top: 3.5rem;
+  top: 3rem;
   left: -2rem;
   width: 100%;
+}
+
+.projects_link {
+  margin: 0.5rem 0;
 }
 
 footer {

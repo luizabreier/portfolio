@@ -10,8 +10,7 @@
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: $gray-4;
-
+  overflow: hidden;
   a {
     color: inherit;
   }
@@ -21,4 +20,23 @@
     font-weight: 400;
     opacity: .5;
   }
+}
+
+.nav-right {
+  float: right;
+  display: inline;
+}
+
+.nav-left {
+  display: inline;
+  float: left;
+}
+
+.work-link {
+  margin-right: 0.5rem;
+  display: inline;
+}
+
+.about-link {
+  display: inline;
 }

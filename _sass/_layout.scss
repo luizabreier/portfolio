@@ -3,10 +3,18 @@
 // Styles for managing the structural hierarchy of the site.
 
 .container {
-  padding-left:  4.5rem;
-  padding-right: 4.5rem;
+  width: 70%;
   margin-left:  auto;
   margin-right: auto;
+  max-width: 1200px;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  border-radius: 0;
 }
 
 .cover img {
@@ -67,11 +75,16 @@
   display: inline-block;
   margin-left: -1rem;
   position: absolute;
-  top: 5.5rem;
+  top: 3.5rem;
   left: -2rem;
   width: 100%;
 }
 
 footer {
   margin-bottom: 2rem;
+  border-top: solid 1px #dedede;
+}
+
+.footer {
+  margin-top: 1rem;
 }

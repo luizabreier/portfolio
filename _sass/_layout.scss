@@ -1,16 +1,13 @@
 .container {
-  width: 70%;
+  width: 100%;
+  padding: 0 30px;
   margin-left:  auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 960px;
 }
 
 body {
   font-family: 'Hind', sans-serif;
-  color: #535151;
-}
-
-.post-title {
   color: #535151;
 }
 
@@ -22,79 +19,14 @@ img {
   border-radius: 0;
 }
 
-.cover img {
-   max-width: 100%;
- }
-
-.wrapper {
-  position: relative;
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.card {
-  position: relative;
-  float: right;
-  width: 60%;
-}
-
-.link {
-  color: #afadad;
-}
-
-.wrapper:nth-child(odd) .banner {
-  float: left;
-}
-
-.wrapper:nth-child(odd) .box {
-  left: -20px
-}
-
-.wrapper:nth-child(odd) .card {
-  float: right;
-}
-
-.wrapper:nth-child(even) .banner {
-  float: right;
-}
-
-.wrapper:nth-child(even) .card {
-  float: left;
-}
-
-.wrapper:nth-child(even) .box {
-  text-align: right;
-  right: -20px
-}
-
-.banner {
-  float: left;
-  width: 40%;
-}
-
-.box {
-  background-color: white;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
-  padding: 1.5rem;
-  display: inline-block;
-  margin-left: -1rem;
-  position: absolute;
-  top: 3rem;
-  left: -2rem;
-  width: 100%;
-}
-
-.projects_link {
-  margin: 0.5rem 0;
-}
-
-footer {
-  margin-bottom: 2rem;
-  border-top: solid 1px #dedede;
-  font-size: 16px;
-}
-
 .footer {
   margin-top: 1rem;
+  padding: 1rem 0;
+  border-top: solid 1px #dedede;
+  font-size: 16px;
+  clear: both;
+
+  & p {
+    margin-bottom: 5px;
+  }
 }

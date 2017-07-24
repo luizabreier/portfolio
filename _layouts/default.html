@@ -15,7 +15,7 @@
           </div>
           <div class="nav-right">
             <a href="{{ site.baseurl }}/">Work</a>
-            <a href="{{ site.baseurl }}/">About</a>
+            <a href="{{ site.about }}/">About</a>
           </div>
           <small>{{ site.tagline }}</small>
         </div>
@@ -25,15 +25,14 @@
         {{ content }}
       </main>
 
-      <footer>
-        <div class=footer>
-          <div>
-            <div>UX & UI  design</div>
-            <div>Product designer Based in Rio de Janeiro, Brasil</div>
-          </div>
-        </div>
-      </footer>
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>UX & UI  design</p>
+        <p>Product designer Based in Rio de Janeiro, Brasil</p>
+      </div>
+    </footer>
 
     {% if site.analytics_id %}
      <script>

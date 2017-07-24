@@ -27,16 +27,37 @@
   display: inline;
 }
 
+.nav-right a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
 .nav-left {
   display: inline;
   float: left;
 }
 
-.work-link {
-  margin-right: 0.5rem;
+.presentation {
+  width: 40%;
   display: inline;
+  float: left;
+  margin-right: 1rem;
 }
 
-.about-link {
+.lu-photo {
+  width: 50%;
   display: inline;
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-right {
+    float: none;
+    clear: both;
+    display: block;
+
+    & a {
+      margin: 0 10px 0 0;
+    }
+  }
 }

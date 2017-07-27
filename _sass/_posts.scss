@@ -74,3 +74,28 @@
     }
   }
 }
+.post .main-title {
+  font-size: 56px;
+  margin: 1rem 0;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.excerpt {
+  width: 70%;
+  margin-right: 2rem;
+}
+
+.role {
+  width : 20%;
+  margin-right: 2rem;
+}
+
+.date {
+  width : 15%;
+  margin-right: 2rem;
+}

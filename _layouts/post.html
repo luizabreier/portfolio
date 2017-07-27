@@ -5,18 +5,25 @@ layout: default
 <article class="post">
   <div class="post-header">
     <img src="{{ page.banner }}" alt="" />
-    <h1>{{ page.title }}</h1>
-    <div class="excerpt">
-      {{ page.excerpt }}
+    <h1 class="main-title">{{ page.title }}</h1>
+    <div class="main-content">
+      <div class="excerpt">
+        <h3>Details</h3>
+        {{ page.excerpt }}
+      </div>
+      <div class="role">
+        <h3>Role</h3>
+        {% for role in page.role %}
+          <span>{{ role }}</span>
+        {% endfor %}
+      </div>
+      <div class="date">
+        <h3>Date</h3>
+        <p>
+          {{ page.date | date_to_string }}
+        </p>
+      </div>
     </div>
-    <div class="role">
-      {% for role in page.role %}
-        <span>{{ role }}</span>
-      {% endfor %}
-    </div>
-    <p class="date">
-      {{ page.date | date_to_string }}
-    </p>
   </div>
   {{ content }}
 </article>

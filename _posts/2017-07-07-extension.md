@@ -10,7 +10,7 @@ date: July 2017
 role:
 - Research
 - UX & UI
-- HTML and CSS implementation
+- HTML and CSS
 ---
 
 ## Workflow

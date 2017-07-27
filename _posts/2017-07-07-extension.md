@@ -4,7 +4,7 @@ title: Extension Store
 img: /img/extension_cover.png
 banner: /img/extension.png
 description: Extension Store is a new admin of the VTEX platform that enables the shopkeepers to find and activate new features for their shops, adding functionalities with extension points.
-excerpt: Extension Store is a new admin of the VTEX platform that enables the shopkeepers to find and activate new features for their shops, adding functionalities with extension points. These extension points are a space on the platform pages that let the users add components. With that, the partner ecosystem will have a lot of opportunities to create extensions that meet the business needs of each shopkeeper and improve the shopping experience for the users.
+excerpt: Extension Store is a new admin of the VTEX platform that enables the shopkeepers to find and activate new features for their shops, adding functionalities with extension points. These extension points are a space on the platform pages that let the users add components. With that, the partner ecosystem will have a lot of opportunities to create extensions that meet the business needs of each shopkeeper and improve the shopping experience for the users.I have been working on the Extension Store and Visa Checkout extension projects for 3 months and these screens are part of the MVP. In the present moment, I'm working with another designer, Rodrigo Muniz, who is focused on the new platform navigation that accompanies the Extension Store.
 project: See project
 date: July 2017
 role:
@@ -12,8 +12,6 @@ role:
 - UX & UI
 - HTML and CSS implementation
 ---
-
-I have been working on the Extension Store and Visa Checkout extension projects for 3 months and these screens are part of the MVP. In the present moment, I'm working with another designer, Rodrigo Muniz, who is focused on the new platform navigation that accompanies the Extension Store.
 
 ## Workflow
 

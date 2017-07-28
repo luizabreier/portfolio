@@ -50,6 +50,35 @@
   float: right;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  color: #535151;
+  font-size: 18px;
+  justify-content: space-around;
+}
+
+.luiza-info {
+  width: 50%;
+  margin-right: 2rem;
+}
+
+.email {
+  width : 15%;
+  margin-right: 2rem;
+}
+
+.github {
+  width : 15%;
+  margin-right: 2rem;
+}
+
+.instagram {
+  width : 15%;
+  margin-right: 2rem;
+  margin-left: auto;
+}
+
 @media only screen and (max-width: 768px) {
   .nav-right {
     float: none;
@@ -60,5 +89,13 @@
     & a {
       margin: 0 10px 0 0;
     }
+  }
+
+  .presentation {
+    width: 100%;
+  }
+
+  .lu-photo {
+    width: 100%;
   }
 }

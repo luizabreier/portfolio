@@ -30,4 +30,6 @@ The access authorization  was necessary because in some cases the employees only
 
 The development of the Extension Store is of great relevance to the company, because we get to use the new platform we are building for VTEX. That means we are using the new "infra" and the "render", which is a set of solutions aimed at writing a front end application as simple as possible and that allows to go straight to the code. The development of the Extension Store was the company’s first chance to use and test this new tool, find bugs and make it more stable for our customers, which will eventually enable our ecosystem to to develop new extensions through our tools.
 
-![video](/video/extension_01.gif)
+<div class='embed-container'>
+  <iframe src='https://player.vimeo.com/video/226650008?byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>

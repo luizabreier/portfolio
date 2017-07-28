@@ -30,6 +30,14 @@ h3 {
   color: #535151;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
 .footer {
   margin-top: 1rem;
   padding: 1rem 0;

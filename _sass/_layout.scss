@@ -30,22 +30,63 @@ h3 {
   color: #535151;
 }
 
-.flex {
-  display: flex;
-}
-
-.flex-row {
-  flex-direction: row;
-}
-
 .footer {
   margin-top: 1rem;
   padding: 1rem 0;
   border-top: solid 1px #dedede;
   clear: both;
 
+  & .container {
+    display: flex;
+  }
+
   & p {
     margin-bottom: 5px;
     font-size: 14px;
+  }
+}
+
+.email {
+  margin-left: auto;
+}
+
+.github {
+  margin-left: 1rem;
+}
+
+.instagram {
+  margin-left: 1rem;
+}
+
+.luiza-info {
+  width: 70%;
+  margin-right: 2rem;
+}
+
+.footer .social p, .footer .social a {
+  margin: 0;
+  display: block;
+  text-align: right;
+}
+
+.footer .social p:first-child {
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer .container {
+    flex-direction: column;
+  }
+
+  .footer .social {
+    margin: 0 0 5px;;
+  }
+
+  .footer .social p, .footer .social a {
+    text-align: left;
+  }
+
+  .luiza-info {
+    width: 100%;
   }
 }

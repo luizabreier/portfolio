@@ -9,21 +9,16 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .card {
   position: relative;
-  float: right;
   width: 60%;
 }
 
-.link {
-  color: #afadad;
-}
-
 .cover {
-  float: left;
   width: 40%;
 }
 
@@ -32,38 +27,29 @@
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
   padding: 1.5rem;
   display: inline-block;
-  position: absolute;
-  top: 3rem;
   width: 100%;
+  position: relative;
 }
 
 .post:nth-child(odd) {
-  & .cover {
-    float: left;
-  }
-
   & .box {
     left: -20px
-  }
-
-  &  .card {
-    float: right;
   }
 }
 
 .post:nth-child(even) {
-  & .cover {
-    float: right;
-  }
-
-  &  .card {
-    float: left;
+  & .wrapper {
+    flex-direction: row-reverse;
   }
 
   & .box {
     text-align: right;
     right: -20px
   }
+}
+
+.link {
+  color: #afadad;
 }
 
 .projects-link {
@@ -84,8 +70,11 @@
   .posts .post {
     margin-bottom: 2em;
 
+    & .wrapper {
+      flex-direction: column;
+    }
+
     & .cover {
-      float: none;
       width: 100%;
     }
 
@@ -94,7 +83,6 @@
     }
 
     & .card {
-      float: none;
       width: 100%;
     }
 
@@ -105,6 +93,7 @@
       top: auto;
       text-align: left;
       padding: 0;
+      box-shadow: none;
     }
   }
 }

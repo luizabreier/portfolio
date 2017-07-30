@@ -10,7 +10,7 @@ title: Home
       <div class="cover">
         <img class="banner" src="{{ post.img }}">
       </div>
-      <div class="card">
+      <a href="{{ site.baseurl }}{{ post.url }}" class="card">
         <div class="box">
           <div class="text">
             <h2 class="post-title">
@@ -19,12 +19,12 @@ title: Home
             <div>
               {{ post.description }}
             </div>
-            <a class="projects-link link" href="{{ site.baseurl }}{{ post.url }}">
+            <span class="projects-link link">
               {{ post.project }}
-            </a>
+            </span>
           </div>
         </div>
-      </div>
+      </a>
     </div>
   </article>
   {% endfor %}

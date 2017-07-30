@@ -33,6 +33,11 @@
 
 .nav-left {
   float: left;
+
+  & img {
+    min-width: 193px;
+    display: inline-block;
+  }
 }
 
 .presentation {

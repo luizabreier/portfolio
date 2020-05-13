@@ -36,11 +36,13 @@ The first thing that we do is to inform the user that their flight is disrupted.
 
 In one of our prototypes, we have done a design with a notification on the top informing about the vouchers, but since they had to scroll to their new departure time, they didn't scroll up again and missed our offer completely. So we concluded that we needed to offer the vouchers after the user checks their new departure time.
 
-![content](/img/vouchers-passenger.png)
+![content](/img/notification-example.jpg)
 
 During our researches, we also noticed that people were confused by our ancillaries’ offers during the time of disruptions. Because we were still offering them to stay at our lounge, some of the users thought that we were actually offering it for free as compensation or we even got reactions like: "Nice, my flight is delayed for 5 hours, but I can still spend more money to stay at your lounge during this time".  So by that, we decided to remove any offer that would be unnecessary and by analysing our data, we noticed that people usually didn't buy our third offers as well like hotels, cars, or activities during a disruption flow. So we've decided to remove them as well. 
 
 Another challenge that we had was how to display the vouchers per passenger. In one of our designs we decided to split a page per passenger, but immediately when they were going deeper in the flow, they would forget about the other pages and they would assume that these are all their vouchers. We even thought in the beginning that the response was because we were testing only with one person, but the same happened when we tested with couples and families. So we decided to have one page with all the vouchers and split by the name of the passengers. 
+
+![content](/img/vouchers-passenger.png)
 
 ## Results
 

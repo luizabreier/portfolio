@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Design System Air France & KLM 
-img: /img/design-system.png
+img: /img/design-system-cover.png
 banner: /img/design-system.png
 description: We have been developing a Design System for KLM and Air France to be our single source of truth for the designers and developers.  
 excerpt: We have been developing a Design System for KLM and Air France to be our single source of truth for the designers and developers.  

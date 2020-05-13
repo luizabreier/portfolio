@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KLM Food and Beverage voucher
-img: /img/preview.png
+img: /img/preview-cover.png
 banner: /img/preview.png
 description: In case of disrupted flight, we need to inform our users about their flight being delayed or cancelled. To compensate for the disruption, we also offer Food and Beverage vouchers. 
 excerpt: In case of disrupted flight, we need to inform our users about their flight being delayed or cancelled. To compensate for the disruption, we also offer Food and Beverage vouchers. 

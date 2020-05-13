@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Air France and KLM my trips
-img: /img/tripscover.png
+img: /img/trips-cover-home.png
 banner: /img/tripscover.png
 description: My trips is the area where the user can see an overview of all of their future trips and past trips. 
 excerpt: My trips is the area where the user can see an overview of all of their future trips and past trips. 

@@ -57,7 +57,7 @@ With that solution, people would understand that the ancillary is not included o
 
 During user testing sessions, we noticed that the user was having difficulties to find their itinerary information because our page was very long with the use of expandable panels for each segment of their trip. From a business perspective, having a long page was also not beneficial for our selling of third parties ancillaries that were placed on the bottom of the page. 
 
-![content](/img/expansionpanel.jpg)
+![content](/img/expansionpanel.png)
 
 
 We decided to update the designs by replacing the expandable panels with tabs. With this new design, we have done more user testing and noticed that the user could easily navigate from one tab to the other. And we also created a logic that when part of the trip if already flown we open the page with the next flight tab already opened. With that, we help to guide the user for their next flight focusing on that itinerary and keep the page shorter than before.

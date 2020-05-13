@@ -59,5 +59,6 @@ During user testing sessions, we noticed that the user was having difficulties t
 
 ![content](/img/expansionpanel.png)
 
-
 We decided to update the designs by replacing the expandable panels with tabs. With this new design, we have done more user testing and noticed that the user could easily navigate from one tab to the other. And we also created a logic that when part of the trip if already flown we open the page with the next flight tab already opened. With that, we help to guide the user for their next flight focusing on that itinerary and keep the page shorter than before.
+
+![content](/img/tabs.png)

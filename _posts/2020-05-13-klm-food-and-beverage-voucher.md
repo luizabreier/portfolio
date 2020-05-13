@@ -47,3 +47,7 @@ Another challenge that we had was how to display the vouchers per passenger. In 
 ## Results
 
 With this final flow, we have done more user testings and we noticed that people could easily go through the flow without any problems. They managed to understand what is their new departure time and were able to activate and use their vouchers. 
+
+<div class='embed-container'>
+  <iframe src="https://player.vimeo.com/video/418162218?color=535151&title=0&byline=0" width="640" height="1156" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>

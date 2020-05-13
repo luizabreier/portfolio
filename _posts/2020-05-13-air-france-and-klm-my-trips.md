@@ -20,7 +20,7 @@ I have been working on this project for more than one and a half year but I woul
 
 When traveling the user has many phases during our journey and also a lot of things that they need to prepare for being able to enter the plane. An example could be adding your passport information, getting extra baggage for a long trip, being reminded that they need to have a visa for their destination or that they need to check-in. 
 
-"To simplify those actions we decided to create a dynamic component that behaves differently according to the user context."
+To simplify those actions we decided to create a dynamic component that behaves differently according to the user context.
 
 This could also be used for commercial purposes. So in case we know that this user is used to paying for an Economy Comfort seat, we would also offer that via this component. 
 

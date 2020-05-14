@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Air France and KLM my trips
-img: /img/trips-cover-home.png
+img: /img/trips-cover.jpg
 banner: /img/tripscover.png
 description: My trips is the area where the user can see an overview of all of their future trips and past trips. 
 excerpt: My trips is the area where the user can see an overview of all of their future trips and past trips. They can also see all the details of a specific trip, being able to see their full itinerary, select their meals, buy extra ancillaries, add their passenger passport and visa information, request an invoice and so many other actions that are available at this page. 

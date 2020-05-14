@@ -22,19 +22,19 @@ According to the necessities of the product team, the design system team is resp
 
 As a Product Owner, I have made a few workshops to understand the needs of our Developers and Designers, and based on that we are now working on those items: 
 
-### UX Guidelines for each component
+**UX Guidelines for each component**
 
 Previously that was not made, so we started seeing that some of our designers had questions about how to use the components. 
 
-### Updating the Sketch Master File
+**Updating the Sketch Master File**
 
 Previously our UI KIT was using plugins that now sketch has as a functionality. So we decided to update our sketch file with Smart Layout, for example, and better organizing our components symbols. 
 
-### Refining the components
+**Refining the components**
 
 Some of our components are not being used by the product teams, because they are currently not offering any advantage besides what Material Design already offers. To avoid having two different UI libraries we started mapping all the components that were used directly from the Material Design and replacing them with our UI KIT correspondent. 
 
-###  Expanding our Design system usage
+**Expanding our Design system usage**
 
 At KLM/AF we have several different applications. From our main website and mobile app to internal applications used by the Business, the crew members, and aircraft engineers. Keeping all those apps requires a lot of effort from the Design team since each of them has a completely different design.
 

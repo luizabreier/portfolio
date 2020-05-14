@@ -12,6 +12,8 @@ role:
 - UX & UI
 ---
 
+## Highlights
+
 I have been working on this project for more than one and a half year but I would like to highlight 3 features.
 
 ## Next best action (NBA)

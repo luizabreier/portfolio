@@ -34,7 +34,7 @@ The first design that I have done for the ancillaries was to offer them using ca
 
 ### Ancillaries with rich illustrations 
 
-Since we launched this design, we wanted to improve our conversion, so we decided to add rich illustrations to be more appealing for the users. We did an A/B test for that and actually brought the conversion to an extra x%. 
+Since we launched this design, we wanted to improve our conversion, so we decided to add rich illustrations to be more appealing for the users. We did an A/B test for that and actually brought the conversion to an extra 2%. 
 
 ![content](/img/AncillaryV2.jpg)
 

@@ -4,15 +4,13 @@ title: Design System Air France & KLM
 img: /img/design-system-cover.png
 banner: /img/design-system.png
 description: We have been developing a Design System for KLM and Air France to be our single source of truth for the designers and developers.  
-excerpt: We have been developing a Design System for KLM and Air France to be our single source of truth for the designers and developers.  
+excerpt: As a Product Owner of the Design System of KLM & AirFrance, I’m responsible for understanding the requirements of each product team and translate it into components that can be reused during any time of the user journey. I’m also responsible for the website where we display the components and document how and when to use them, the guidelines of the brands, and the tone of voice. 
 project: See project
 date: May 2020
 role:
 - Research
 - UX & UI
 ---
-
-As a Product Owner of the Design System of KLM & AirFrance, I’m responsible for understanding the requirements of each product team and translate it into components that can be reused during any time of the user journey. I’m also responsible for the website where we display the components and document how and when to use them, the guidelines of the brands, and the tone of voice.
 
 ## Previous status of our Design System
 

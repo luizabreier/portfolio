@@ -4,16 +4,13 @@ title: KLM Food and Beverage voucher
 img: /img/preview-cover.png
 banner: /img/preview.png
 description: In case of disrupted flight, we need to inform our users about their flight being delayed or cancelled. To compensate for the disruption, we also offer Food and Beverage vouchers. 
-excerpt: In case of disrupted flight, we need to inform our users about their flight being delayed or cancelled. To compensate for the disruption, we also offer Food and Beverage vouchers. 
+excerpt: Food and Beverage vouchers are offered for users facing disruption of their flight. That could be when the flight is delayed for more than 2 hours or when it's canceled. Each passenger receives a voucher and the amount varies according to the time that they will need to wait at the airport. Nowadays in most scenarios we only offer the voucher printed on paper that is given by the flight attendants or via our Kiosks machines, causing extra lines at the airport and causing stress to our users. 
 project: See project
 date: May 2020
 role:
 - Research
 - UX & UI
 ---
-
-
-Food and Beverage vouchers are offered for users facing disruption of their flight. That could be when the flight is delayed for more than 2 hours or when it's canceled. Each passenger receives a voucher and the amount varies according to the time that they will need to wait at the airport. Nowadays in most scenarios we only offer the voucher printed on paper that is given by the flight attendants or via our Kiosks machines, causing extra lines at the airport and causing stress to our users. 
 
 ## Goal
 

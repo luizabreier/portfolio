@@ -5,14 +5,13 @@ img: /img/trips-cover-home.png
 banner: /img/tripscover.png
 description: My trips is the area where the user can see an overview of all of their future trips and past trips. 
 excerpt: My trips is the area where the user can see an overview of all of their future trips and past trips. They can also see all the details of a specific trip, being able to see their full itinerary, select their meals, buy extra ancillaries, add their passenger passport and visa information, request an invoice and so many other actions that are available at this page. 
+I have been working on this project for more than one and a half year but I would like to highlight 3 features.
 project: See project
 date: May 2020
 role:
 - Research
 - UX & UI
 ---
-
-I have been working on this project for more than one and a half year but I would like to highlight 3 features.
 
 ## Next best action (NBA)
 

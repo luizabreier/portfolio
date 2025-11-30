@@ -1,31 +1,323 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luiza Breier - UX Manager</title>
+    <meta name="description" content="Luiza Breier - UX Manager leading Overarching Product Experience teams at Adyen. Expertise in Fintech, Travel, and E-commerce.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
 
-<div class="posts home-posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <div class="wrapper">
-      <div class="cover">
-        <img class="banner" src="{{ post.img }}">
-      </div>
-      <a href="{{ site.baseurl }}{{ post.url }}" class="card">
-        <div class="box">
-          <div class="text">
-            <h2 class="post-title">
-              {{ post.title }}
-            </h2>
-            <div>
-              {{ post.description }}
+      html {
+        font-size: 16px;
+        -webkit-text-size-adjust: 100%;
+        line-height: 1.5;
+      }
+
+      body {
+        font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      /* Main Layout */
+      .page {
+        min-height: 100vh;
+        background-color: #000;
+        color: #fff;
+      }
+
+      .container {
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 4rem 2rem;
+      }
+
+      @media (min-width: 768px) {
+        .container {
+          padding: 6rem 2rem;
+        }
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        align-items: start;
+      }
+
+      @media (min-width: 1024px) {
+        .grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 4rem;
+        }
+      }
+
+      /* Left Column - Bio */
+      .bio {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+
+      @media (min-width: 1024px) {
+        .bio {
+          padding-right: 2rem;
+        }
+      }
+
+      /* Name and Title */
+      .header {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .name {
+        font-size: 3rem;
+        font-weight: 400;
+        letter-spacing: -0.025em;
+        line-height: 1;
+      }
+
+      @media (min-width: 768px) {
+        .name {
+          font-size: 3.75rem;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .name {
+          font-size: 4.5rem;
+        }
+      }
+
+      .title {
+        font-size: 1.5rem;
+        color: #9ca3af;
+        font-weight: 300;
+      }
+
+      @media (min-width: 768px) {
+        .title {
+          font-size: 1.875rem;
+        }
+      }
+
+      /* Bio Content */
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        font-size: 1.125rem;
+        color: #d1d5db;
+        line-height: 1.625;
+      }
+
+      @media (min-width: 768px) {
+        .content {
+          font-size: 1.25rem;
+        }
+      }
+
+      .content p {
+        margin: 0;
+      }
+
+      .highlight {
+        color: #fff;
+        font-weight: 500;
+      }
+
+      .quote {
+        color: #fff;
+        font-style: italic;
+      }
+
+      /* Contact Buttons */
+      .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding-top: 1rem;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.75rem 1.5rem;
+        border: 1px solid #4b5563;
+        border-radius: 9999px;
+        background: transparent;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background-color: #fff;
+        color: #000;
+        border-color: #fff;
+      }
+
+      .btn svg {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+
+      /* Right Column - Image */
+      .image-container {
+        position: relative;
+      }
+
+      @media (min-width: 1024px) {
+        .image-container {
+          position: sticky;
+          top: 6rem;
+        }
+      }
+
+      .image-wrapper {
+        position: relative;
+        aspect-ratio: 2 / 3;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 40px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+      }
+
+      @media (min-width: 1024px) {
+        .image-wrapper {
+          margin-left: auto;
+        }
+      }
+
+      .image-wrapper img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .image-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent);
+        pointer-events: none;
+      }
+
+      /* Decorative Element */
+      .decorative-line {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.2), transparent);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- Main Content -->
+      <div class="container">
+        <div class="grid">
+          <!-- Left Column - Bio -->
+          <div class="bio">
+            <!-- Name and Title -->
+            <div class="header">
+              <h1 class="name">Luiza Breier</h1>
+              <p class="title">UX Manager</p>
             </div>
-            <span class="projects-link link">
-              {{ post.project }}
-            </span>
+
+
+            <!-- Bio Content -->
+            <div class="content">
+              <p>
+                Currently, I lead the <span class="highlight">Overarching Product Experience teams at Adyen</span>. 
+                In this role, I oversee the foundational layers that connect the entire platform. Driving the strategy for the 
+                <span class="highlight">Design System, AI Chatbot, Main Navigation, and Localization</span>.
+              </p>
+
+              <p>
+                My expertise lies in navigating ambiguity within complex domains, specifically 
+                <span class="highlight">Fintech, Travel, and E-commerce</span>. 
+                I thrive in environments where design needs to scale. From driving the adoption of enterprise level design systems 
+                to pioneering localization strategies for global markets, I help teams move faster by bridging the gap between 
+                technical constraints and user needs.
+              </p>
+
+              <p class="quote">
+                I believe good design is consistent, inclusive, and invisible.
+              </p>
+
+              <p>
+                When I'm not untangling UX workflows, I'm usually behind a camera lens or planning my next trip. 
+                Photography teaches me to look for the details others miss, a habit that I bring back to my design work every single day.
+              </p>
+            </div>
+
+            <!-- Contact Buttons -->
+            <div class="buttons">
+              <a href="https://linkedin.com/in/luizabreier" target="_blank" rel="noopener noreferrer" class="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:hello@luizabreier.com" class="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column - Image -->
+          <div class="image-container">
+            <div class="image-wrapper">
+              <img 
+                src="assets/luiza-breier.png" 
+                alt="Luiza Breier"
+              />
+              <!-- Gradient Overlay -->
+              <div class="image-overlay"></div>
+            </div>
           </div>
         </div>
-      </a>
+      </div>
+
+      <!-- Decorative Elements -->
+      <div class="decorative-line"></div>
     </div>
-  </article>
-  {% endfor %}
-</div>
+  </body>
+</html>
